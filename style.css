@@ -90,6 +90,7 @@ nav{
     display: flex;
     border-radius: 999rem 999rem;
     padding: 0.5em 30%;
+    font-size: 4vw;
 }
 
 
@@ -112,7 +113,6 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 2em;
-    flex-grow: 1;
 }
 
 
@@ -136,32 +136,57 @@ nav{
     width: 100%;
 }
 
-
+#dev{
+    font-size: 7vw;
+}
 
 
 
 
 @media screen and (min-width: 481px) and (max-width: 768px){
+     /* fix word "developer" size */
+    #dev{
+        font-size: initial;
+    }
+    /* ------- */
+
 
     .feature{
         flex-direction: row;
         flex-wrap: wrap;
         align-items: initial;
-        gap: 0px;
-    
+        justify-content: space-between;
+        gap: 2%;
+        row-gap: 1em;
+        padding: 5% 5% 0% 5%;
     }
 
     .card-1{
-        
-        flex-grow: 2;
-        flex-basis: calc(100%/2);
-        padding: 5%;
+        justify-content: space-between;
+        flex-grow: 1;
+        flex-basis: 60%;
+        padding: 5% 5% 0% 5%;
+
     }
 
     .card-2{
-        flex-grow: 1;
-        flex-basis: calc(100%/3);
+        flex-basis: 32%;
         padding: 5%;
+        flex-grow: 0;
+    }
+
+
+    .content p{
+        font-size: 2vw;
+    }
+
+    .content h2{
+        font-size: 2.5vw;
+    }
+
+    .content a{
+        
+        font-size: 2vw;
     }
 
 
@@ -173,6 +198,13 @@ nav{
 
 
 @media screen and (min-width: 769px){
+    /* fix word "developer" size */
+    #dev{
+        font-size: initial;
+    }
+
+    /* ------- */
+
     header{
         padding: 5px 15%;
     }
@@ -207,7 +239,22 @@ nav{
         font-weight: bolder;
     }
 
+    .content p{
+        font-size: 1vw;
+    }
 
+    .content h2{
+        font-size: 2vw;
+    }
+
+    .content a{
+        font-size: 1.5vw;
+    }
+
+   #inizia{
+    font-size: 1vw;
+    font-weight: initial;
+   }
 
 
 
@@ -217,10 +264,11 @@ nav{
         flex-direction: row;
         flex-wrap: wrap;
         align-items: initial;
+        justify-content: space-between;
         margin: 50px auto;
         width: 70%;
-        padding: 0px;
-        gap: 2%;
+        padding: 0% 0% 0% 0%;
+        gap: 0px;
         row-gap: 30px;
     }
 
@@ -231,7 +279,7 @@ nav{
 
  
     .feature .phone{
-        width: 50%;
+        width: 45%;
         display: flex;
         align-items: flex-end;
     }
@@ -241,17 +289,19 @@ nav{
 
 
     .card-1{
-       
+        padding: 2% 2% 0% 2%;
         flex-direction: row;
-        gap: 0px;
-        flex-grow: 1;
-        flex-basis: calc(70% - 6%);
+        flex-basis: 66%;
+        flex-grow: 0;
     }
 
     .card-2{
-        flex-grow: 1;
-        flex-basis: 30%;
+        padding: 2%;
+        flex-basis: 32.5%;
+        
     }
+
+
 
 
 
