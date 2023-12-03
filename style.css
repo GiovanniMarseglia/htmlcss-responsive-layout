@@ -94,6 +94,8 @@ nav{
 }
 
 
+
+
 .feature figure{
     width: 90%;
 }
@@ -201,6 +203,11 @@ nav{
 }
 
 
+.strategic-content-second h2{
+    font-size: 7vw;
+}
+
+
 
 .strategic-content-second span{
     background-color: #9590E1;
@@ -265,8 +272,8 @@ nav{
 
 
 .partner1 img, .partner2 img, .partner3 img{
-    width: 150px;
-    height: 150px;
+    width: 50vw;
+    height: 50vw;
     border-radius: 999rem 999rem;
     object-fit: cover;
 }
@@ -302,9 +309,80 @@ nav{
 
 
 
+/* start benefits section */
 
 
 
+.benefits{
+    background-color: #9792E4;
+    padding: 10% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.benefits-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+
+
+
+.benefits-title h2{
+    color: white;
+}
+
+
+
+.benefits-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    text-align: left;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 30px;
+}
+
+
+
+.benefits-card span{
+    font-size: 50px;
+    color: #9792E4;
+    font-weight: bold;
+}
+
+
+
+.benefits-card h3{
+    color: #9792E4;
+    font-weight: bold;
+}
+
+
+.benefits-card p{
+    line-height: 30px;
+}
+
+
+
+
+
+
+.benefits-card a{
+    color: white;
+    background-color: #9792E4;
+    border-radius: 999rem 999rem;
+    padding: 10px 50px;
+    text-decoration: none;
+    letter-spacing: 3px;
+}
 
 
 
@@ -366,6 +444,12 @@ nav{
     }
 
 
+    .partner1 img, .partner2 img, .partner3 img{
+        width: 20vw;
+        height: 20vw;
+    }
+
+
 
     .card-single{
         flex-direction: row;
@@ -378,6 +462,27 @@ nav{
         text-align: left;
     }
 
+
+
+    /* start benefits section */
+
+   
+
+
+    .benefits-cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: red;
+        justify-content: space-between;
+        gap: 20px;
+        
+    }
+
+    .benefits-card{
+        flex-basis: calc((100%/2) - (20px/2));
+        
+    }
 
 }
 
@@ -511,9 +616,13 @@ nav{
 
     .strategic-second{
         width: 400px;
-        height: 380px;
+        height: 450px;
         padding: 2%;
-        margin-top:18%;  
+        margin-top: 100px;  
+    }
+
+    .strategic-content-second h2{
+        font-size: 1vw;
     }
 
 
@@ -538,6 +647,12 @@ nav{
     }
 
 
+    .partner1 img, .partner2 img, .partner3 img{
+        width: 10vw;
+        height: 10vw;
+    }
+
+
 
     .card-single{
         flex-direction: row;
@@ -558,8 +673,37 @@ nav{
     }
 
     .partner-content h2{
-        font-size: 40px;
+        font-size: 60px;
+    }
+
+    .partner-content p{
+        font-size: 30px;
     }
     
+
+
+
+
+    .benefits-cards{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .benefits-card{
+        flex-basis: calc((100%/3) - (40px/3));
+        
+    }
+
+    .benefits-card a{
+        
+        padding: 1vw 3vw;
+        letter-spacing: 3px;
+    }
+
 }
 
