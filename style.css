@@ -104,8 +104,6 @@ nav{
 }
 
 
-
-
 .card-2{
     background-color: #B5DDFF;
     padding: 10%;
@@ -139,6 +137,176 @@ nav{
 #dev{
     font-size: 7vw;
 }
+
+
+.strategic{
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    padding: 70px 10% 70px 10%;
+    background-color: #9792E4;
+    gap: 25px;
+}
+
+
+.strategic-first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
+.planning-girl img{
+    width: 100%;
+    border: solid 1px red;
+}
+
+
+.strategic-content-first{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.strategic-content-first h2, .strategic-content-first p{
+    color: white;
+}
+
+
+.strategic-second{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5%;
+    align-items: center;
+}
+
+
+.planning-boy img{
+    width: 100%;
+    border: solid 1px red;
+}
+
+
+.strategic-content-second{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.strategic-content-second span{
+    background-color: #9590E1;
+    border-radius: 999rem 999rem;
+    padding: 15px;
+    display: flex;
+}
+
+
+.strategic-content-second p{
+   line-height: 30px;
+   font-style: italic;
+}
+
+
+/* start partners section */
+
+
+.partner{
+    padding: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.partner-content{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px red;
+    gap: 20px;
+    text-align: center;
+}
+
+
+
+.partner-content span{
+    font-weight: 600;
+}
+
+
+.partner-content h2{
+    text-wrap: wrap;
+    color: #9792E4;
+}
+
+.partner-content p{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+
+.partner-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
+.partner1 img, .partner2 img, .partner3 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 999rem 999rem;
+    object-fit: cover;
+}
+
+
+
+.partner1, .partner2, .partner3{
+    display: flex;
+    justify-content: center;
+}
+
+
+.card-single{
+    background-color: #9792E4;
+    border-radius: 2rem;
+    padding: 30px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    line-height: 30px;
+    color: white;
+}
+
+
+
+.card-single span{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -190,7 +358,31 @@ nav{
     }
 
 
+     /* start partner section */
+
+
+    .partner{
+        padding: 5% 5%;
+    }
+
+
+
+    .card-single{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .card-content{
+        text-align: left;
+    }
+
+
 }
+
+
+
 
 
 
@@ -257,9 +449,6 @@ nav{
    }
 
 
-
-
-
     .feature{
         flex-direction: row;
         flex-wrap: wrap;
@@ -285,9 +474,6 @@ nav{
     }
 
 
-
-
-
     .card-1{
         padding: 2% 2% 0% 2%;
         flex-direction: row;
@@ -301,9 +487,79 @@ nav{
         
     }
 
+     /* strategic planning section  */
+
+     .strategic{
+        flex-direction: row;
+        padding: 5% 5% 5% 5%;
+        justify-content: center;
+        gap: 65px;
+     }
+
+     .strategic-first{
+        gap: 40px;
+        width: 400px;
+    }
+
+     .planning-girl img{
+        border: solid 1px red;
+    }
+
+    .planning-girl{
+        
+    }
+
+    .strategic-second{
+        width: 400px;
+        height: 380px;
+        padding: 2%;
+        margin-top:18%;  
+    }
+
+
+    .planning-boy img{
+        width: 150px;
+        border: solid 1px red;
+    }
+
+    .strategic-content-first h2{
+        text-wrap: nowrap;
+    }
+
+
+    /* start partner section */
 
 
 
+    .partner{
+        padding: 5% 5%;
+        width: 70%;
+        margin: 0 auto;
+    }
 
+
+
+    .card-single{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    .card-content{
+        text-align: left;
+    }
+
+
+
+    .partner-content{
+        width: 100%;
+    }
+
+    .partner-content h2{
+        font-size: 40px;
+    }
+    
 }
 
