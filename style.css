@@ -88,9 +88,12 @@ nav{
     text-decoration: none;
     color: white;
     display: flex;
+    align-items: center;
     border-radius: 999rem 999rem;
     padding: 0.5em 30%;
     font-size: 4vw;
+    gap: 10px;
+    text-wrap: nowrap;
 }
 
 
@@ -497,7 +500,7 @@ nav{
 @media screen and (min-width: 769px){
     /* fix word "developer" size */
     #dev{
-        font-size: initial;
+        font-size: 2vw;
     }
 
     /* ------- */
@@ -610,9 +613,7 @@ nav{
         border: solid 1px red;
     }
 
-    .planning-girl{
-        
-    }
+    
 
     .strategic-second{
         width: 400px;
